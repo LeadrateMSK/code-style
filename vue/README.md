@@ -1,2 +1,2 @@
-# Leadrate Vue Style Guide
-> 
+# Leadrate Vue Style Guide ✔
+Руководство по написанию Vue-приложений. В разработке...
