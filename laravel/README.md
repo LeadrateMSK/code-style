@@ -1,2 +1,2 @@
 # Leadrate Laravel Style Guide
-> 
+Рекомендации по работе с Laravel. В разработке...
