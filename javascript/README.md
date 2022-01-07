@@ -1,0 +1,2 @@
+# Leadrate JavaScript Style Guide
+> 
