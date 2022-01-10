@@ -171,6 +171,41 @@
 </article>
 ```
 
+## Закрывающие комментарии
+Всегда используй закрывающие комментарии для блочных элементов.
+С этим прекрасно помогает плагин Emmet и настройка `"auto_comment"`
+
+Благодаря таким закрывающим комментарием, проще изучать и поддерживать вёрстку.
+
+##### Плохой пример
+```html
+<div class="user">
+    <div class="user__avatar">
+        <img src="avatar.png" alt="">
+    </div>
+    <div class="user__info">
+        <span>Василий</span>
+        <span>vasya@mail.ru</span>
+    </div>
+</div>
+```
+##### Хороший пример
+```html
+<div class="user">
+    <div class="user__avatar">
+        <img src="avatar.png" alt="">
+    </div>
+    <!-- /.user__avatar -->
+
+    <div class="user__info">
+        <span>Василий</span>
+        <span>vasya@mail.ru</span>
+    </div>
+    <!-- /.user__info -->
+</div>
+<!-- /.user -->
+```
+
 ## Атрибуты
 
 ### Когда нужно использовать `style=""`
